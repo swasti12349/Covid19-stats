@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/statei"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:text="@string/state_ut"
+            android:gravity="center_horizontal"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/confirmedi"
+            android:textColor="@color/black"
+            android:text="@string/confirmed"
+            android:textSize="14sp"
+            android:textAlignment="textEnd"
+            android:layout_weight="1"
+            android:gravity="end" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/activei"
+            android:textColor="@color/black"
+            android:text="@string/active"
+            android:gravity="end"
+            android:textSize="14sp"
+            android:textAlignment="textEnd"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/recoveredi"
+            android:textColor="@color/black"
+            android:text="@string/recovered"
+            android:gravity="end"
+            android:textSize="14sp"
+            android:textAlignment="textEnd"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:id="@+id/deceasedi"
+            android:textColor="@color/black"
+            android:text="@string/deceased"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textAlignment="center"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:id="@+id/view"
+        android:background="#291F1F"/>
+
+</LinearLayout>
+
+</LinearLayout>

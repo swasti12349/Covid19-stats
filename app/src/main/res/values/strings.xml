@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Covid-19 stats</string>
+    <string name="state_ut">State/UT</string>
+    <string name="confirmed">C</string>
+    <string name="active">A</string>
+    <string name="recovered">R</string>
+    <string name="deceased">D</string>
+</resources>
